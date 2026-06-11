@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gaby ❤️ Rafihx</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:linear-gradient(180deg,#080808,#1a0d12,#2b1018,#080808);
+color:white;
+line-height:1.8;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:4rem;
+color:#ffd7ea;
+}
+
+.hero p{
+margin-top:10px;
+font-size:1.2rem;
+}
+
+.contador{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
+margin-top:30px;
+}
+
+.box{
+background:rgba(255,255,255,.08);
+padding:20px;
+border-radius:20px;
+min-width:120px;
+}
+
+.box span{
+font-size:2rem;
+font-weight:bold;
+color:#ffd7ea;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
+}
+
+.card{
+background:rgba(255,255,255,.05);
+padding:25px;
+border-radius:25px;
+margin-bottom:30px;
+}
+
+h2{
+color:#ffb8d8;
+margin-bottom:20px;
+}
+
+img{
+width:100%;
+border-radius:20px;
+margin-top:15px;
+box-shadow:0 0 20px rgba(255,255,255,.08);
+}
+
+.music-player{
+position:fixed;
+right:20px;
+bottom:20px;
+z-index:999;
+}
+
+.music-player button{
+background:#2b141b;
+color:white;
+border:none;
+padding:15px 20px;
+border-radius:50px;
+cursor:pointer;
+font-size:16px;
+}
+
+<footer>
+
+
+<h2>💖 Feliz Dia dos Namorados 💖</h2>
+
+<p>
+Gaby, obrigado por cada conversa, cada ligação,
+cada risada, cada momento e cada lembrança.
+
+Você se tornou uma parte muito importante da minha vida
+e esse site é apenas uma pequena forma de mostrar o quanto
+você significa para mim.
+
+Feliz Dia dos Namorados. ❤️
+</p>
+
+<br>
+
+<button id="amorBtn">
+❤️ Clique Aqui ❤️
+</button>
+
+<div id="mensagemSecreta" style="display:none; margin-top:20px;">
+
+<h2>
+Rafihx Te Ama Muito ❤️
+</h2>
+
+<p>
+Mais do que palavras conseguem explicar.
+Mais do que mensagens conseguem demonstrar.
+Mais do que qualquer distância consegue mudar.
+
+❤️
+</p>
+
+</div>
+
+</footer>
+  
+footer{
+padding:50px;
+text-align:center;
+color:#ffd7ea;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1>Gaby ❤️ Rafihx</h1>
+
+<p>
+Uma pequena parte da nossa história.
+</p>
+
+<div class="contador">
+
+<div class="box">
+<span id="dias">0</span>
+<br>Dias
+</div>
+
+<div class="box">
+<span id="horas">0</span>
+<br>Horas
+</div>
+
+<div class="box">
+<span id="minutos">0</span>
+<br>Minutos
+</div>
+
+<div class="box">
+<span id="segundos">0</span>
+<br>Segundos
+</div>
+
+</div>
+
+</div>
+
+<section>
+
+<div class="card">
+
+<h2>💌 Nossa História</h2>
+
+<p>
+Desde 04/01/2026 nossa história começou a ganhar capítulos que eu nunca vou esquecer.
+
+Entre conversas, ligações, jogos, risadas e momentos simples, você se tornou uma das pessoas mais importantes da minha vida.
+
+Cada lembrança aqui representa um pedaço daquilo que vivemos juntos.
+</p>
+
+<img src="conversa.jpg">
+
+</div>
+
+<div class="card">
+
+<h2>🥀 Os 2 Dias Que Ficamos Distantes</h2>
+
+<p>
+Aqueles dois dias me fizeram perceber ainda mais o quanto você significa para mim.
+
+Eu senti saudade, me preocupei, chorei e pensei muito em tudo.
+
+Também percebi erros meus, atitudes que te confundiram e momentos em que eu poderia ter sido melhor.
+
+Por isso, deixo aqui um pedido sincero de desculpas por todas as vezes que não consegui demonstrar da melhor forma aquilo que sinto.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🎮 Onde Tudo Virou Memória</h2>
+
+<img src="jogo1.png">
+<br><br>
+<img src="jogo2.png">
+
+<p>
+Talvez fossem apenas jogos para outras pessoas.
+
+Mas para mim eram momentos especiais porque eram com você.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>📞 Nossas Ligações</h2>
+
+<img src="ligacao.jpg">
+<br><br>
+<img src="ligacao2.jpg">
+
+<p>
+Ouvir sua voz sempre foi uma das melhores partes dos meus dias.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🎵 Seu Spotify</h2>
+
+<img src="spotify.jpg">
+
+<p>
+Existem músicas que marcam momentos.
+
+E existem pessoas que transformam qualquer música em lembrança.
+
+Você faz isso comigo.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🌄 O Céu Também Me Lembra Você</h2>
+
+<img src="paisagem.jpg">
+
+<p>
+Assim como essa paisagem transmite calma, você também trouxe momentos de paz para minha vida.
+
+O clima muda, os dias passam, mas algumas pessoas deixam marcas que permanecem.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>💎 Nosso Símbolo</h2>
+
+<img src="pulseira.jpg">
+
+<p>
+Pequenos detalhes carregam grandes significados.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>❤️ Um Sentimento Verdadeiro</h2>
+
+<img src="desenho.jpg">
+
+<p>
+Cada traço representa carinho, dedicação e um sentimento verdadeiro.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>😍 A Mulher Que Sou Obcecado</h2>
+
+<img src="gaby.jpg">
+
+<p>
+Seu sorriso, seu jeito e sua presença fazem parte das melhores lembranças que eu guardo.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>📸 Nós</h2>
+
+<img src="rafih.jpg">
+
+<p>
+Os melhores momentos da minha vida têm algo em comum:
+
+Você.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>💌 Carta Final</h2>
+
+<p>
+Gaby, eu fiz esse site porque existem sentimentos que às vezes não cabem em mensagens.
+
+Cada foto, cada texto e cada lembrança aqui representam um pedaço da nossa história.
+
+Obrigado por cada conversa, cada ligação, cada risada e cada momento.
+
+Independentemente do futuro, você sempre será uma pessoa muito importante para mim.
+
+❤️
+</p>
+
+</div>
+
+</section>
+
+<div class="music-player">
+<button id="musicBtn">🎵 Nossa Música</button>
+
+<audio id="bgMusic" loop>
+<source src="musica.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<footer>
+
+❤️ Gaby & Rafihx ❤️
+
+</footer>
+
+<script>
+
+const inicio = new Date("2026-01-04T00:00:00");
+
+function atualizar(){
+
+let diff = new Date() - inicio;
+
+const dias = Math.floor(diff/(1000*60*60*24));
+diff %= (1000*60*60*24);
+
+const horas = Math.floor(diff/(1000*60*60));
+diff %= (1000*60*60);
+
+const minutos = Math.floor(diff/(1000*60));
+diff %= (1000*60);
+
+const segundos = Math.floor(diff/1000);
+
+document.getElementById("dias").innerText=dias;
+document.getElementById("horas").innerText=horas;
+document.getElementById("minutos").innerText=minutos;
+document.getElementById("segundos").innerText=segundos;
+
+}
+
+setInterval(atualizar,1000);
+atualizar();
+
+const btn = document.getElementById("musicBtn");
+const music = document.getElementById("bgMusic");
+
+let tocando = false;
+
+btn.onclick = () => {
+
+if(!tocando){
+music.play();
+btn.innerHTML = "⏸️ Pausar Música";
+tocando = true;
+}else{
+music.pause();
+btn.innerHTML = "🎵 Nossa Música";
+tocando = false;
+}
+
+};
+const amorBtn = document.getElementById("amorBtn");
+const mensagem = document.getElementById("mensagemSecreta");
+
+amorBtn.addEventListener("click", () => {
+
+if(mensagem.style.display === "none"){
+mensagem.style.display = "block";
+amorBtn.innerHTML = "💖 Eu Te Amo 💖";
+}else{
+mensagem.style.display = "none";
+amorBtn.innerHTML = "❤️ Clique Aqui ❤️";
+}
+
+});
+
+</script>
+  
+</script>
+
+</body>
+</html>
